@@ -1,0 +1,47 @@
+[
+    {
+      "name": "Paris",
+      "rating": "4",
+      "description": "Far far away, behind the word mountains, far from the countries",
+      "address": "Miami, Florida",
+      "id": "1",
+      "price":"200",
+      "img":"https://i.ibb.co/xD4RvwX/restaurant-7.jpg"
+    },
+    {
+      "name": "London",
+      "rating": "4",
+      "description": "Far far away, behind the word mountains, far from the countries",
+      "address": "Miami, Florida",
+      "id": "2",
+      "price":"220",
+      "img":"https://i.ibb.co/Tr8MFHK/restaurant-4.jpg"
+    },
+    {
+      "name": "Queensland",
+      "rating": "4",
+      "price":"260",
+      "description": "Far far away, behind the word mountains, far from the countries",
+      "address": "Miami, Florida",
+      "id": "3",
+      "img":"https://i.ibb.co/QY7pg39/restaurant-2.jpg"
+    },
+    {
+      "name": "Singapore",
+      "rating": "4",
+      "price":"240",
+      "description": "Far far away, behind the word mountains, far from the countries",
+      "address": "Miami, Florida",
+      "id": "4",
+      "img":"https://i.ibb.co/BV45qps/restaurant-1.jpg"
+    },
+    {
+      "name": "Dubai",
+      "rating": "5",
+      "price":"300",
+      "description": "Far far away, behind the word mountains, far from the countries",
+      "address": "Miami, Florida",
+      "id": "5",
+      "img":"https://i.ibb.co/BV45qps/restaurant-1.jpg"
+    }
+  ]
