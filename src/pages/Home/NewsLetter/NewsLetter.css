@@ -1,0 +1,9 @@
+.newsletter-section{
+    padding: 100px 0px;
+    background-image: linear-gradient(#2ebdc4,#68e5b2);
+}
+
+.newsletter-section input{
+    padding: 10px;
+    border: 1px solid black;
+}

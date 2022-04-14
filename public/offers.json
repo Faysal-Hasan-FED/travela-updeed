@@ -1,0 +1,47 @@
+[
+    {
+      "name": "Hotel, Italy",
+      "rating": "4",
+      "description": "Far far away, behind the word mountains, far from the countries",
+      "address": "Miami, Florida",
+      "id": "1",
+      "price":"40",
+      "img":"https://i.ibb.co/xD4RvwX/restaurant-7.jpg"
+    },
+    {
+      "name": "Hotel, Italy",
+      "rating": "4",
+      "description": "Far far away, behind the word mountains, far from the countries",
+      "address": "Miami, Florida",
+      "id": "2",
+      "price":"35",
+      "img":"https://i.ibb.co/Tr8MFHK/restaurant-4.jpg"
+    },
+    {
+      "name": "Hotel, Italy",
+      "rating": "4",
+      "price":"45",
+      "description": "Far far away, behind the word mountains, far from the countries",
+      "address": "Miami, Florida",
+      "id": "3",
+      "img":"https://i.ibb.co/QY7pg39/restaurant-2.jpg"
+    },
+    {
+      "name": "Hotel, Italy",
+      "rating": "4",
+      "price":"55",
+      "description": "Far far away, behind the word mountains, far from the countries",
+      "address": "Miami, Florida",
+      "id": "4",
+      "img":"https://i.ibb.co/BV45qps/restaurant-1.jpg"
+    },
+    {
+      "name": "Hotel, Italy",
+      "rating": "5",
+      "price":"40",
+      "description": "Far far away, behind the word mountains, far from the countries",
+      "address": "Miami, Florida",
+      "id": "5",
+      "img":"https://i.ibb.co/BV45qps/restaurant-1.jpg"
+    }
+  ]

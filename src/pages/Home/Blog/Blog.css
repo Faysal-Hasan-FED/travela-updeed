@@ -1,0 +1,10 @@
+
+.title{
+    color: #343a40;
+    transition: .5s;
+}
+.title:hover{
+    color: #dc3545;
+}
+
+
