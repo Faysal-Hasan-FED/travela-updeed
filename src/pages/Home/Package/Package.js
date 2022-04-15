@@ -10,16 +10,13 @@ const Package = props => {
     const HalfStar = <FontAwesomeIcon icon={faStarHalf} />
     const mapIcon = <FontAwesomeIcon icon={faMap} />
 
-
-
- 
-
-
     return (
         <Col>
+       
+        
     <Card>
     
-    <Card.Img style={{height:'200px',width:'100%',objectFit:'cover'}} variant="top" src={img} />
+    <Card.Img style={{height:'200px',objectFit:'cover'}} variant="top" src={img} />
     
     
       <Card.Body>
@@ -41,7 +38,8 @@ const Package = props => {
        
       </Card.Body>
     </Card>
-  </Col>
+    
+      </Col>
     );
 };
 

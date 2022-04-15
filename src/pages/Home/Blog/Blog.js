@@ -9,7 +9,7 @@ const Blog = props => {
     const messageIcon = <FontAwesomeIcon icon={faMessage} />
     return (
     <Col>
-    <Card>
+    <Card className='h-100'>
       <Card.Img style={{height:'300px',objectFit:'cover'}} variant="top" src={img} />
       <Card.Body>
           <p style={{fontWeight:'lighter'}}>{category}</p>

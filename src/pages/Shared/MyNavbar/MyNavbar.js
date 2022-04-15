@@ -1,22 +1,28 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
+import {Link} from 'react-router-dom'
 
 const MyNavbar = () => {
     return (
-        <Navbar className='fixed-top' collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Navbar collapseOnSelect bg='dark' fixed='top' variant='dark' expand="lg" >
   <Container>
-  <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+  <Navbar.Brand href="#home">Travela</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
-    <Nav className="me-auto">
-      <Nav.Link href="#features">Features</Nav.Link>
-      <Nav.Link href="#pricing">Pricing</Nav.Link>
-    </Nav>
-    <Nav>
-      <Nav.Link href="#deets">More deets</Nav.Link>
-      <Nav.Link eventKey={2} href="#memes">
-        Dank memes
-      </Nav.Link>
+    <Nav className="ms-auto">
+      <p>
+        <Link to="/home">Home</Link>
+      </p>
+      <p>
+      <Link to="/about">About</Link>
+      </p>
+      <p>
+      <Link to="/tour">Tour</Link>
+      </p>
+      <p>
+      <Link to="/hotels">Hotels</Link>
+      </p>
+     
     </Nav>
   </Navbar.Collapse>
   </Container>

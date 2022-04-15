@@ -15,7 +15,7 @@ const Offers = () => {
             <h1 className="pb-5">
                 Popular <span style={{fontWeight:'lighter'}}>Hotels & Rooms</span>
             </h1>
-            <Row xs={1} md={5} className="g-4">
+            <Row xs={1} md={4} className="g-4">
             {
                 offers.map(offer => <Offer offer={offer} key={offer.id}></Offer>)
             }

@@ -1,0 +1,28 @@
+.home-hero-anchor{
+    text-decoration: none;
+    color: black;
+    transition: .5s;
+}
+
+.home-hero-anchor:hover{
+    color: red;
+}
+
+.home-hero-options{
+    display: flex;
+}
+
+.hero-slogan{
+    font-size: 60px;
+}
+
+@media only screen and (max-width:688px) {
+
+    .hero-slogan{
+        font-size: 30px;
+    }
+    .home-hero-options{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}

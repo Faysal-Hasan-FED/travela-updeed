@@ -14,13 +14,14 @@ const Packages = () => {
         .then(data => setPackages(data))
     },[])
     return (
-        <div className='bg-light' style={{padding:'100px'}}>
+        <div className='bg-light' style={{padding:'100px 0px'}}>
             <Container>
             <h5 className='custom-text'>Special Offers</h5>
             <h1 className="pb-5">
                 Top <span style={{fontWeight:'lighter'}}>Tour Packages</span>
             </h1>
-            <Row xs={12} md={5} className="g-4">
+
+            <Row xs={1} md={4} className="g-4">
             {
                 // could not use package because of keyword 
                 packages.map(pck => <Package
