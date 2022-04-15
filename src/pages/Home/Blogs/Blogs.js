@@ -7,7 +7,7 @@ const Blogs = () => {
     useEffect(()=>{
         fetch('/blogs.json')
         .then(res => res.json())
-        .then(data=>setBlogs(data))
+        .then(data=>setBlogs(data.splice(0,4)))
     },[])
     return (
         <Container style={{padding:'100px 0px'}} >

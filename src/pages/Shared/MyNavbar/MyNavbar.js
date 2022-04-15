@@ -22,6 +22,9 @@ const MyNavbar = () => {
       <p>
       <Link to="/hotels">Hotels</Link>
       </p>
+      <p>
+      <Link to="/blogs">Blogs</Link>
+      </p>
      
     </Nav>
   </Navbar.Collapse>

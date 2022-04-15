@@ -9,7 +9,8 @@ import MyNavbar from './pages/Shared/MyNavbar/MyNavbar';
 import About from './pages/About/About/About';
 import NotFound from './pages/NotFound/NotFound';
 import Tour from './pages/Tour/Tour/Tour';
-import Hotels from './pages/Hotels/Hotels/Hotels';
+import BlogMain from './pages/Blog/BlogMain/BlogMain';
+import HotelMain from './pages/Hotels/HotelMain/HotelMain';
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
         <Route path="/home" element={<Home></Home>}></Route>
         <Route path="/about" element={<About></About>}></Route>
         <Route path="/tour" element={<Tour></Tour>}></Route>
-        <Route path="/hotels" element={<Hotels></Hotels>}></Route>
+        <Route path="/hotels" element={<HotelMain></HotelMain>}></Route>
+        <Route path="/blogs" element={<BlogMain></BlogMain>}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
       </BrowserRouter>

@@ -4,10 +4,11 @@ import Offer from '../Offer/Offer';
 
 const Offers = () => {
     const [offers,setOffers] = useState([]);
+    // here offers = hotels 
     useEffect(()=>{
-        fetch('/offers.json')
+        fetch('/hotels.json')
         .then(res => res.json())
-        .then(data => setOffers(data))
+        .then(data => setOffers(data.splice(0,4)))
     },[])
     return (
         <Container style={{paddingTop:'100px'}}>
