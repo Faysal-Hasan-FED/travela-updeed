@@ -1,16 +1,16 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import './BlogHero.css';
+import './ContactHero.css';
 
-const BlogHero = () => {
+const ContactHero = () => {
     return (
-        <div  className='blog-hero'>
+        <div  className='contact-hero'>
         <div className='text-center'>
         <NavLink className="link" to="/home">Home</NavLink>
-        <h1 className='hero-slogan text-white'>Tips & Articles</h1>
+        <h1 className='hero-slogan text-white'>Contact Us</h1>
         </div>
     </div>
     );
 };
 
-export default BlogHero;
+export default ContactHero;

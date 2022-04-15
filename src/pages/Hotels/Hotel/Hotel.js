@@ -11,7 +11,7 @@ const Hotel = props => {
     return (
         <Col>
     <Card>
-      <Card.Img style={{height:'200px',objectFit:'cover'}} variant="top" src={img} />
+      <Card.Img className='w-100' style={{height:'200px',objectFit:'cover'}} variant="top" src={img} />
       <Card.Body>
           
         <Card.Title className='title'>{name}</Card.Title>

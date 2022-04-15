@@ -12,7 +12,7 @@ const Hotels = () => {
         .then(data=>setHotels(data.splice(0,6)))
     },[])
     return (
-       <Animated animationIn="fadeInUp" animationInDuration={1000} isVisible={true}>
+       <Animated animationIn="fadeInUp" animationInDuration={2000} isVisible={true}>
            <div  style={{padding:'100px 0px'}}>
             <Container >
             <Row >

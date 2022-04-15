@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Container, Row } from 'react-bootstrap';
+import {Animated} from "react-animated-css";
 import Blog from '../Blog/Blog';
 
 const Blogs = () => {
@@ -10,7 +11,9 @@ const Blogs = () => {
         .then(data=>setBlogs(data.splice(0,4)))
     },[])
     return (
-        <Container style={{padding:'100px 0px'}} >
+        <Animated animationIn="fadeInUp" animationInDuration={3000} isVisible={true}>
+            <div  style={{padding:'100px 0px'}}>
+            <Container >
             <h5 className='custom-text'>Recent blogs</h5>
             <h1 className="pb-5">
                 Tips <span style={{fontWeight:'lighter'}}>& Articles</span>
@@ -21,11 +24,11 @@ const Blogs = () => {
                     key={blog.id}
                     blog={blog}></Blog>)
             }
-  
-  
-</Row>
+            </Row>
             
         </Container>
+        </div>
+        </Animated>
     );
 };
 
