@@ -7,7 +7,7 @@ const HotelHero = () => {
         <div  className='hotel-hero'>
             <div className='text-center'>
             <NavLink className="link" to="/home">Home</NavLink>
-            <h1 className='hero-slogan text-white'>About Us</h1>
+            <h1 className='hero-slogan text-white'>Hotels</h1>
             </div>
         </div>
     );

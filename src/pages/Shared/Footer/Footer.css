@@ -10,9 +10,11 @@
     margin-bottom: 20px;
 }
 
-/* .footer-container p{
-    line-height: 15px;
-} */
+.icon{
+    margin-top: 30px;
+    color: white;
+    font-size: 28px;
+}
 
 
 .footer-container a{

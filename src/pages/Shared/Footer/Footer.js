@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faLocationDot, faPhone, faEnvelope} from '@fortawesome/free-solid-svg-icons'
+import {faLocationDot, faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import './Footer.css';
 
 
@@ -10,6 +10,8 @@ const Footer = () => {
     const location = <FontAwesomeIcon icon={faLocationDot} />
     const phone = <FontAwesomeIcon icon={faPhone} />
     const email = <FontAwesomeIcon icon={faEnvelope} />
+//    cant find facebook , twitter , instagram icons in font awesome 
+    
   
     
 
@@ -20,7 +22,14 @@ const Footer = () => {
     <Col xs={12} md={3} >
         <h4 className="footer-title" >Travela</h4>
         <p>Far far away, behind the word mountains, far from the countries Vokapa and Consonantia, there pve the bpnd texts.</p>
-        {/* icons missing twitter , facebook , instagram , cant find */}
+        {/* icons missing twitter , facebook , instagram , cant find so used normal font awesome */}
+       
+        <span >
+        <i className="fa-brands icon  fa-facebook me-3"></i>
+        <i className="fa-brands icon  fa-twitter me-3"></i>
+        <i className="fa-brands icon fa-instagram"></i>
+        </span>
+
     </Col>
     <Col xs={12} md={3}>
         <h4 className="footer-title">Information</h4>

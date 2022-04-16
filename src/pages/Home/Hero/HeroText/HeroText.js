@@ -18,23 +18,23 @@ const HeroText = () => {
             <h2 className='hero-slogan mb-md-3 text-white'>Your Amazing City</h2>
 
 
-            <p className='my-md-5 text-white'>Find great places to stay, eat, shop, or visit from local experts</p>
+            <p className='text-white my-5' style={{fontWeight:'bold'}}>Find great places to stay, eat, shop, or visit from local experts</p>
 
 
             <form  className='mb-5' style={{display:'flex',alignItems:'center'}}>
                 <input className='p-3 w-25' type="text" placeholder="Ex:Food,service,hotel" />
-                <select className='p-3 w-25' name="destinations" id="destinations">
+                <select className='p-3 w-25 text-dark' name="destinations" id="destinations">
                 <option value="where">Where</option>
                 <option value="san fransisco">San Francisco</option>
                 <option value="berlin germany">Berlin Germany</option>
                 <option value="paris france">Paris France</option>
                 <option value="london">London</option>
                 </select>
-                <Button  className='px-5 py-3' variant="outline-danger">Search</Button>
+                <Button  className='px-5 py-3' variant="outline-dark">Search</Button>
             </form>
 
 
-            <p className='text-dark' style={{fontWeight:'bold'}}>Or browse the highlights</p>
+            <p className='text-white' style={{fontWeight:'bold'}}>Or browse the highlights</p>
 
 
             <div className='home-hero-options'>

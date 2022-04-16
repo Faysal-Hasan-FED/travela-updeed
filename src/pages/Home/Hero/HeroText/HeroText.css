@@ -16,6 +16,11 @@
     font-size: 60px;
 }
 
+::placeholder { 
+    color: black;
+    opacity: 1; 
+  }
+
 @media only screen and (max-width:688px) {
 
     .hero-slogan{
@@ -24,5 +29,10 @@
     .home-hero-options{
         display: grid;
         grid-template-columns: repeat(2,1fr);
+        grid-gap: 10px;
+    }
+
+    .form{
+        text-align: center;
     }
 }

@@ -8,11 +8,13 @@ import Packages from '../Packages/Packages';
 import Restaurants from '../Restaurants/Restaurants';
 import Footer from '../../Shared/Footer/Footer';
 import Hero from '../Hero/Hero/Hero';
+import HomeServices from '../HomeServices/HomeServices/HomeServices';
 
 const Home = () => {
     return (
         <div id="home">
             <Hero></Hero>
+            <HomeServices></HomeServices>
             <Packages></Packages>
             <Facts></Facts> 
             <Offers></Offers>
