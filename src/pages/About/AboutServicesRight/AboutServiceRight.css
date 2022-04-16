@@ -1,0 +1,11 @@
+.custom-btn{
+    padding: 10px 25px;
+    background-color: rgba(127, 255, 212, 0.384);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.custom-btn:hover{
+    background-color: antiquewhite;
+}

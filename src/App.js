@@ -12,6 +12,8 @@ import Tour from './pages/Tour/Tour/Tour';
 import BlogMain from './pages/Blog/BlogMain/BlogMain';
 import HotelMain from './pages/Hotels/HotelMain/HotelMain';
 import Contact from './pages/Contact/Contact/Contact';
+import Shop from './pages/Shop/Shop/Shop';
+import Footer from './pages/Shared/Footer/Footer';
 
 function App() {
   return (
@@ -25,9 +27,11 @@ function App() {
         <Route path="/tour" element={<Tour></Tour>}></Route>
         <Route path="/hotels" element={<HotelMain></HotelMain>}></Route>
         <Route path="/blogs" element={<BlogMain></BlogMain>}></Route>
+        <Route path="/shop" element={<Shop></Shop>}></Route>
         <Route path="/contact" element={<Contact></Contact>}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
+      <Footer></Footer>
       </BrowserRouter>
     </div>
   );

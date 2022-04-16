@@ -1,22 +1,40 @@
-import React, { useRef } from 'react';
-import { Button } from 'react-bootstrap';
+import React, { useState } from 'react';
+import RightText from '../RightText/RightText';
+import './AboutServiceRight.css';
 
 const AboutServicesRight = () => {
-    
-
-    // need to know use ref hooks 
+    const [active,setActive] = useState('first')
+     
     return (
         <div>
-            <div>
-                <Button  className='me-5' variant="outline-success">What We Do</Button>
-                <Button className='me-5' variant="outline-success">Our Mission</Button>
-                <Button className='me-5' variant="outline-success">Our Goal</Button>
+            <div className='d-md-flex justify-content-between' style={{padding:'20px 0px'}}>
+                <p  onClick={()=>setActive('first')} className='custom-btn'>What We Do</p>
+                <p  onClick={()=>setActive('second')} className='custom-btn'>Our Mission</p>
+                <p  onClick={()=>setActive('third')} className='custom-btn'> Our Goal</p>
             </div>
-            <div style={{marginTop:'50px'}}>
-            <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum minima ab, quasi itaque similique rerum voluptatum odit eligendi deleniti fugiat id nobis nisi autem qui? Reiciendis culpa recusandae asperiores sint!</p>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum minima ab, quasi itaque similique rerum voluptatum odit eligendi deleniti fugiat id nobis nisi autem qui? Reiciendis culpa recusandae asperiores sint!</p>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum minima ab, quasi itaque similique rerum voluptatum odit eligendi deleniti fugiat id nobis nisi autem qui? Reiciendis culpa recusandae asperiores sint!</p>
-            </div>
+            {
+                active=== 'first' && <RightText 
+                title={'Offering Reliable Hosting'} 
+                upperText={'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.'} 
+                lowerText={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur'}
+                ></RightText>
+            }
+            {
+                active=== 'second' && <RightText
+                 title={'Exceptional Web Solutions'}
+                 upperText={'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.'} 
+                lowerText={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur'}
+                  ></RightText>
+            }
+            {
+                active=== 'third' && <RightText 
+                title={'Help Our Customer'} 
+                upperText={'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.'} 
+                lowerText={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur'}
+                ></RightText>
+            }
+            
+            
         </div>
     );
 };

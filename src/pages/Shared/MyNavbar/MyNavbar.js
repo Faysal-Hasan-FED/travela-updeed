@@ -48,6 +48,13 @@ const MyNavbar = () => {
     marginRight: isActive ? '50px' : '50px',
     textDecoration: isActive ? 'none' : 'none'
     })}> Blogs </NavLink>
+      
+      <NavLink to="shop"
+    style={({ isActive }) => ({
+    color: isActive ? 'red' : 'white',
+    marginRight: isActive ? '50px' : '50px',
+    textDecoration: isActive ? 'none' : 'none'
+    })}> Shop </NavLink>
 
       <NavLink to="contact"
     style={({ isActive }) => ({

@@ -14,10 +14,10 @@ const Testimony = () => {
             </h1>
 
             <div>
-            <Splide aria-labelledby="My Favorite Images">
+            <Splide  aria-labelledby="My Favorite Images">
 
-                <SplideSlide className='d-flex align-items-center px-5 py-3 w-100'>
-                <img style={{objectFit:'cover',borderRadius:'50%'}} className='w-25' src="https://i.ibb.co/NmD8nvR/person-2.jpg" alt="Image 1"/>
+                <SplideSlide style={{padding:'20px 65px'}} className='d-flex align-items-center  w-100'>
+                <img style={{objectFit:'cover',borderRadius:'50%',width:'15%'}}  src="https://i.ibb.co/NmD8nvR/person-2.jpg" alt="Image 1"/>
                 <div className='ps-3'>
                 <p className="custom-text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                 <h4>Josh Phillip</h4>
@@ -26,8 +26,8 @@ const Testimony = () => {
                 </SplideSlide>
 
 
-                <SplideSlide className="d-flex align-items-center px-5 py-3">
-                <img style={{objectFit:'cover',borderRadius:'50%'}} className='w-25' src="https://i.ibb.co/TmkLMcF/person-1.jpg
+                <SplideSlide style={{padding:'20px 65px'}}  className="d-flex align-items-center ">
+                <img style={{objectFit:'cover',borderRadius:'50%',width:'15%'}} src="https://i.ibb.co/TmkLMcF/person-1.jpg
                 " alt="Image 2"/>
                 <div className='ps-3'>
                 <p className="custom-text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
@@ -37,8 +37,8 @@ const Testimony = () => {
                 </SplideSlide>
 
 
-                <SplideSlide className="d-flex align-items-center px-5 py-3">
-                <img style={{objectFit:'cover',borderRadius:'50%'}} className='w-25' src="https://i.ibb.co/wsjNGJq/person-3.jpg
+                <SplideSlide  style={{padding:'20px 65px'}} className="d-flex align-items-center ">
+                <img style={{objectFit:'cover',borderRadius:'50%',width:'15%'}} src="https://i.ibb.co/wsjNGJq/person-3.jpg
                 " alt="Image 2"/>
                 <div className='ps-3'>
                 <p className="custom-text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>

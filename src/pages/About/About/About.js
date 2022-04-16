@@ -10,7 +10,6 @@ const About = () => {
             <AboutHero></AboutHero>
             <AboutServices></AboutServices>
             <Faq></Faq>
-            <Footer></Footer>
         </div>
     );
 };
