@@ -1,10 +1,19 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
 
 const SelectShop = () => {
     return (
-        <div>
-            <p>select </p>
-        </div>
+       <Container>
+            <div className='text-center my-5'>
+            <select className=' w-75 p-3' name="categories" id="categories">
+                <option value="select by Category">Select by Category</option>
+                <option value="native">Native</option>
+                <option value="Popular">Popular</option>
+                <option value="special">Special</option>
+                <option value="limited">Limited Editions</option>
+                </select>
+            </div>
+       </Container>
     );
 };
 

@@ -5,7 +5,7 @@ import CountUp from 'react-countup';
 
 const Facts = () => {
     return (
-        <div style={{marginTop:'100px',padding:'100px ',backgroundImage:'linear-gradient(#2ebdc4,#68e5b2)'}}>
+        <div style={{marginTop:'100px',padding:'100px ',backgroundImage:'linear-gradient(#f5f7f6,#5ca0f2)'}}>
             <Container>
             <h2 className='text-center'>Some Fun Facts</h2>
             <p className="text-center mb-5">More than 100,000 websites hosted</p>
