@@ -1,5 +1,4 @@
 import React from 'react';
-import Footer from '../../Shared/Footer/Footer';
 import ContactHero from '../ContactHero/ContactHero';
 import ContactMain from '../ContactMain/ContactMain';
 

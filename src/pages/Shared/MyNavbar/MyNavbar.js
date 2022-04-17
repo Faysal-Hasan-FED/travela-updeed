@@ -8,7 +8,17 @@ const MyNavbar = () => {
       <Container>
         <Navbar style={{lineHeight:'30px'}} collapseOnSelect bg='dark' fixed='top' variant='dark' expand="lg" >
   <Container>
-  <Navbar.Brand href="#home">Travela</Navbar.Brand>
+  <Navbar.Brand>
+
+  <NavLink to="home"
+    style={({ isActive }) => ({
+      color: isActive ? 'orange' : 'white',
+      fontSize: isActive ? '36px' : '36px',
+    marginRight: isActive ? '50px' : '50px',
+    textDecoration: isActive ? 'none' : 'none'
+    })}> Travela </NavLink>
+
+  </Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="ms-auto">
