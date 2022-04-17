@@ -1,6 +1,6 @@
 [
     {
-      "name": "Luxury Restaurant",
+      "name": "Demo Restaurant",
       "rating": "4",
       "description": "Far far away, behind the word mountains, far from the countries",
       "address": "San Franciso, CA",
@@ -8,7 +8,7 @@
       "img":"https://i.ibb.co/xD4RvwX/restaurant-7.jpg"
     },
     {
-      "name": "Luxury Restaurant",
+      "name": "Doe Restaurant",
       "rating": "4",
       "description": "Far far away, behind the word mountains, far from the countries",
       "address": "San Franciso, CA",
@@ -16,7 +16,7 @@
       "img":"https://i.ibb.co/Tr8MFHK/restaurant-4.jpg"
     },
     {
-      "name": "Luxury Restaurant",
+      "name": "John Restaurant",
       "rating": "4",
       "description": "Far far away, behind the word mountains, far from the countries",
       "address": "San Franciso, CA",
