@@ -10,7 +10,7 @@ const Blog = props => {
     return (
 
     <Col>
-    <Card className='h-100'>
+    <div className='h-100 shadow-sm rounded'>
       <Card.Img style={{height:'200px',objectFit:'cover'}} variant="top" src={img} />
       <Card.Body>
           <p style={{fontWeight:'lighter'}}>{category}</p>
@@ -19,7 +19,7 @@ const Blog = props => {
         {messageIcon}<span className='ms-3'>{comment}</span>
        
       </Card.Body>
-    </Card>
+    </div>
   </Col>
     );
 };

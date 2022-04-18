@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Animated } from 'react-animated-css';
 import { Container, Row } from 'react-bootstrap';
 import Package from '../Package/Package';
 
@@ -14,6 +15,7 @@ const Packages = () => {
         .then(data => setPackages(data))
     },[])
     return (
+        <Animated animationIn="fadeInUp" animationInDuration={1000} isVisible={true}>
         <div className='bg-light' style={{padding:'100px 0px'}}>
             <Container>
             <h5 className='custom-text'>Special Offers</h5>
@@ -33,6 +35,7 @@ const Packages = () => {
             </Row>
         </Container>
         </div>
+        </Animated>
     );
 };
 

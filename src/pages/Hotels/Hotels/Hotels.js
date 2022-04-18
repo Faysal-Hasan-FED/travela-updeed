@@ -20,7 +20,7 @@ const Hotels = () => {
                 <Sidebar></Sidebar>
                 </Col>
                 <Col xs={12} md={9}>
-                    <Row xs={1} md={3} >
+                    <Row xs={1} md={3} className="g-4" >
                     {
                     hotels.map(hotel => <Hotel
                     key={hotel.id}

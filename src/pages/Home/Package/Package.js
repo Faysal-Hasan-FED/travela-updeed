@@ -14,7 +14,7 @@ const Package = props => {
         <Col>
        
         
-    <Card>
+    <div className='shadow-sm rounded'>
     
     <Card.Img style={{height:'200px',objectFit:'cover'}} variant="top" src={img} />
     
@@ -32,12 +32,12 @@ const Package = props => {
         <p className='mt-2 custom-text'>{description}</p>
         <div style={{bodrerBottom:'1px solid gray'}}> <hr /></div>
         <p className='custom-text'>2 days 3 nights</p>
-        <p> {mapIcon} <span className='ms-2'>{address}</span> </p> <Button variant="outline-success" size="sm">Discover</Button>
+        <p> {mapIcon} <span className='ms-2'>{address}</span> </p> <Button variant="outline-success" size="sm">Explore</Button>
         
         
        
       </Card.Body>
-    </Card>
+    </div>
     
       </Col>
     );

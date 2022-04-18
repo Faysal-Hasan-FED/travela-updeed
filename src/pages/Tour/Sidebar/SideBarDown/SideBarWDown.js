@@ -9,7 +9,7 @@ const SideBarWDown = () => {
     //  can not find empty star
 
     return (
-        <div style={{backgroundColor:'#f8faff'}} className="border">
+        <div style={{backgroundColor:'#f8faff',marginBottom:'50px'}} className="border">
             <h3 className='ps-5 mt-3'  style={{fontWeight:'lighter'}}>STAR RATING</h3>
             <div className='p-5'>
                 <div className='d-flex align-items-center mb-3'>

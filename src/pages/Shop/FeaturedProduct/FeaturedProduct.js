@@ -1,11 +1,11 @@
 import React from 'react';
-import { Button, ButtonGroup, Card, Col } from 'react-bootstrap';
+import { Button, Col } from 'react-bootstrap';
 
 const FeaturedProduct = props => {
     const {name,price1,price2,img} = props.pd;
     return (
         <Col>
-        <Card className='p-3'>
+        <div className='p-3 shadow-sm rounded'>
         <div className="text-center my-2">
             <img style={{height:'200px',width:'200px',objectFit:'cover',borderRadius:'50%'}} src={img} alt="" />
             </div>
@@ -15,7 +15,7 @@ const FeaturedProduct = props => {
            <Button className='me-2' variant="outline-success">See Details</Button>
             <Button variant="outline-dark">Buy Now</Button>
             </div>
-        </Card>
+        </div>
         </Col>
     );
 };

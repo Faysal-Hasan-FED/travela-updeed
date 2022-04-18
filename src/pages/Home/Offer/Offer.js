@@ -11,7 +11,7 @@ const Offer = props => {
     const mapIcon = <FontAwesomeIcon icon={faMap} />
     return (
         <Col>
-    <Card>
+    <div className='shadow-sm rounded'>
       <Card.Img style={{height:'200px',objectFit:'cover'}} variant="top" src={img} />
       <Card.Body>
           
@@ -23,12 +23,12 @@ const Offer = props => {
         <h5 className="text-primary">Only {price}$ /night </h5>
         <p className='mt-2 custom-text'>{description}</p>
         <div style={{bodrerBottom:'1px solid gray'}}> <hr /></div>
-        <p> {mapIcon} <span className='ms-2'>{address}</span> </p> <Button variant="outline-success" size="sm">Discover</Button>
+        <p> {mapIcon} <span className='ms-2'>{address}</span> </p> <Button variant="outline-success" size="sm">See Details</Button>
         
         
        
       </Card.Body>
-    </Card>
+    </div>
   </Col>
     );
 };

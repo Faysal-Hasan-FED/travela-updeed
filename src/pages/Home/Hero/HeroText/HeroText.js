@@ -22,15 +22,15 @@ const HeroText = () => {
 
 
             <form  className='mb-5' style={{display:'flex',alignItems:'center'}}>
-                <input className='p-3 w-25' type="text" placeholder="Ex:Food,service,hotel" />
-                <select className='p-3 w-25 text-dark' name="destinations" id="destinations">
+                <input className='p-3 w-25 me-2 select rounded' type="text" placeholder="Ex:Food,service,hotel" />
+                <select className='p-3 w-25 me-2 select rounded' name="destinations" id="destinations">
                 <option value="where">Where</option>
                 <option value="san fransisco">San Francisco</option>
                 <option value="berlin germany">Berlin Germany</option>
                 <option value="paris france">Paris France</option>
                 <option value="london">London</option>
                 </select>
-                <Button  className='px-5 py-3' variant="outline-dark">Search</Button>
+                <Button  className='px-5 py-3' variant="info">Search</Button>
             </form>
 
 

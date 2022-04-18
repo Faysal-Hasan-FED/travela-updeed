@@ -10,7 +10,7 @@ const Hotel = props => {
     const mapIcon = <FontAwesomeIcon icon={faMap} />
     return (
         <Col>
-    <Card>
+    <div className='shadow-sm rounded'>
       <Card.Img className='w-100' style={{height:'200px',objectFit:'cover'}} variant="top" src={img} />
       <Card.Body>
           
@@ -25,7 +25,7 @@ const Hotel = props => {
         <p> {mapIcon} <span className='ms-2'>{address}</span> </p> <Button variant="success" size="sm">Book Now</Button>
        
       </Card.Body>
-    </Card>
+    </div>
   </Col>
     );
 };

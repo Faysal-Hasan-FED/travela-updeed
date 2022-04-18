@@ -6,7 +6,7 @@ const SideBarTop = () => {
     return (
         
         <div style={{backgroundColor:'#f8faff'}} className='mb-5'>
-            <form className='border'>
+            <form className='border rounded'>
             <h3 className='ps-4 mt-3' style={{fontWeight:'lighter'}}>FIND CITY</h3>
             <div className='p-4'>
                 <input type="text" className='p-3 custom-input' placeholder='Destination,City' /> <br />

@@ -8,7 +8,7 @@ const SingleBlog = props => {
     const messageIcon = <FontAwesomeIcon icon={faMessage} />
     return (
     <Col>
-    <Card className='h-100'>
+    <div className='h-100 shadow-sm rounded'>
       <Card.Img style={{height:'300px',objectFit:'cover'}} variant="top" src={img} />
       <Card.Body>
           <p style={{fontWeight:'lighter'}}>{category}</p>
@@ -17,7 +17,7 @@ const SingleBlog = props => {
         {messageIcon}<span className='ms-3'>{comment}</span>
        
       </Card.Body>
-    </Card>
+    </div>
   </Col>
     );
 };
